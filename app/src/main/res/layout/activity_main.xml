@@ -7,9 +7,14 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fusion Player V2.0"
+        android:layout_width="109dp"
+        android:layout_height="30dp"
+        android:autoText="false"
+        android:capitalize="characters"
+        android:clickable="false"
+        android:drawableBottom="@android:color/darker_gray"
+        android:text="Fusion Player v 2.0"
+        app:autoSizeTextType="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
